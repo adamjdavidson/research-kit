@@ -438,6 +438,8 @@ If you follow this guide, you'll do these steps **in this order**:
 
 **Why this order matters:** Each step builds on the previous. Your constitution guides question refinement. Your question guides perspective identification. Perspectives guide research. Research enables synthesis. Synthesis enables frameworks. Frameworks enable writing.
 
+**Want to see this visually?** Check out the **[Workflow Diagram](workflow-diagram.md)** with interactive Mermaid charts showing the complete research process.
+
 ---
 
 ## Alternative: Use the Complete Workflow Command
@@ -580,6 +582,7 @@ This guides you step-by-step through the entire process.
 **Happy researching!** 🔬
 
 For more details:
+- **[Workflow Diagram](workflow-diagram.md)** - Visual Mermaid diagrams of the complete process
 - **[Commands Reference](commands-reference.md)** - All 13 commands explained
 - **[Templates Reference](templates-reference.md)** - All 6 templates explained
 - **[Architecture](architecture.md)** - How ResearchKit works

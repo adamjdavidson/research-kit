@@ -288,6 +288,8 @@ Once you're comfortable with the workflow, you can use commands individually. **
 
 **Bottom line:** Start with `/rk-research` for your first project. After you understand the flow, use individual commands.
 
+**Want to see the complete workflow visually?** Check out the **[Workflow Diagram](.researchkit/docs/workflow-diagram.md)** with interactive Mermaid charts showing the entire research process from constitution to finished output.
+
 ---
 
 ## How ResearchKit Works
@@ -467,6 +469,7 @@ I save it to `questions/question-001.md`.
 
 ### Want to Learn More?
 
+- **[Workflow Diagram](.researchkit/docs/workflow-diagram.md)** - Visual Mermaid diagrams of the complete research process
 - **[Complete Research Workflow Guide](.researchkit/docs/getting-started.md)** - Understand the full research process
 - **[Commands Reference](.researchkit/docs/commands-reference.md)** - All 13 commands explained in detail
 - **[Templates Reference](.researchkit/docs/templates-reference.md)** - What each template does

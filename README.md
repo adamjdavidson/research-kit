@@ -57,7 +57,7 @@ ResearchKit adds 13 new commands to Claude Code that guide you through research.
 **Copy and paste this command into your terminal**, then press `Enter`:
 
 ```bash
-git clone https://github.com/yourusername/research-kit.git
+git clone https://github.com/adamjdavidson/research-kit.git
 ```
 
 **What this does:** Downloads ResearchKit to your computer.
@@ -462,8 +462,8 @@ I save it to `questions/question-001.md`.
    - **[Troubleshooting Guide](.researchkit/docs/troubleshooting.md)** - Common problems and solutions
 
 3. **Still stuck?**
-   - [Report an issue](https://github.com/yourusername/research-kit/issues)
-   - [Ask in Discussions](https://github.com/yourusername/research-kit/discussions)
+   - [Report an issue](https://github.com/adamjdavidson/research-kit/issues)
+   - [Ask in Discussions](https://github.com/adamjdavidson/research-kit/discussions)
 
 ### Want to Learn More?
 
@@ -547,14 +547,14 @@ This checks for issues and can guide you to update.
 1. **Try it right now**: Open Claude Code, type `/rk-init`, and start your first research project
 2. **Read the workflow guide**: [Getting Started Guide](.researchkit/docs/getting-started.md) shows you the complete research process
 3. **Explore commands**: Try `/rk-question` to refine a research question
-4. **Join the community**: [GitHub Discussions](https://github.com/yourusername/research-kit/discussions) to share your research
+4. **Join the community**: [GitHub Discussions](https://github.com/adamjdavidson/research-kit/discussions) to share your research
 
 ---
 
 ## License
 
-[Your license here]
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Questions? Stuck? Excited?** We'd love to hear from you in [Discussions](https://github.com/yourusername/research-kit/discussions)!
+**Questions? Stuck? Excited?** We'd love to hear from you in [Discussions](https://github.com/adamjdavidson/research-kit/discussions)!

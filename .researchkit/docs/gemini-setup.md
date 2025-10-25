@@ -594,8 +594,8 @@ Then help me add it to my ResearchKit project with /rk-collect-documents.
    - Make sure your API key is valid
    - Check your usage quota
 4. **Ask for help:**
-   - [ResearchKit GitHub Issues](https://github.com/yourusername/research-kit/issues)
-   - [ResearchKit Discussions](https://github.com/yourusername/research-kit/discussions)
+   - [ResearchKit GitHub Issues](https://github.com/adamjdavidson/research-kit/issues)
+   - [ResearchKit Discussions](https://github.com/adamjdavidson/research-kit/discussions)
 
 ---
 

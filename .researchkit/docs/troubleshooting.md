@@ -738,8 +738,8 @@ echo "Install dir: $(ls -la ~/.researchkit)"
    - [Architecture](architecture.md)
 
 2. **GitHub**:
-   - [Report an issue](https://github.com/yourusername/research-kit/issues)
-   - [Discussions](https://github.com/yourusername/research-kit/discussions)
+   - [Report an issue](https://github.com/adamjdavidson/research-kit/issues)
+   - [Discussions](https://github.com/adamjdavidson/research-kit/discussions)
 
 3. **Community**:
    - [Your community forum/Slack/Discord]

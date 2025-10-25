@@ -37,7 +37,7 @@ Complete guide to installing, updating, and troubleshooting ResearchKit.
 **In your terminal, run these commands:**
 
 ```bash
-git clone https://github.com/yourusername/research-kit.git
+git clone https://github.com/adamjdavidson/research-kit.git
 cd research-kit
 ./install.sh
 ```
@@ -517,7 +517,7 @@ Still having issues?
 
 1. **Check the validator**: `/rk-validate`
 2. **Read troubleshooting**: [troubleshooting.md](troubleshooting.md)
-3. **Report an issue**: [GitHub Issues](https://github.com/yourusername/research-kit/issues)
+3. **Report an issue**: [GitHub Issues](https://github.com/adamjdavidson/research-kit/issues)
 
 ---
 

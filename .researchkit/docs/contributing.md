@@ -21,15 +21,15 @@ Guide for extending, customizing, and contributing to ResearchKit.
 
 ### For Users
 
-1. **Report issues** - Found a bug? [Open an issue](https://github.com/yourusername/research-kit/issues)
-2. **Suggest features** - Have an idea? [Start a discussion](https://github.com/yourusername/research-kit/discussions)
+1. **Report issues** - Found a bug? [Open an issue](https://github.com/adamjdavidson/research-kit/issues)
+2. **Suggest features** - Have an idea? [Start a discussion](https://github.com/adamjdavidson/research-kit/discussions)
 3. **Improve documentation** - Fix typos, clarify explanations
 4. **Share your research** - Show how you use ResearchKit
 
 ### For Developers
 
-1. **Fix bugs** - Check [open issues](https://github.com/yourusername/research-kit/issues)
-2. **Add features** - Implement [requested features](https://github.com/yourusername/research-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+1. **Fix bugs** - Check [open issues](https://github.com/adamjdavidson/research-kit/issues)
+2. **Add features** - Implement [requested features](https://github.com/adamjdavidson/research-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 3. **Improve installer** - Better error handling, cross-platform support
 4. **Add tests** - Increase test coverage
 5. **Create commands** - Build new research workflows
@@ -460,7 +460,7 @@ Guide the user through each section...
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/research-kit.git
+git clone https://github.com/adamjdavidson/research-kit.git
 cd research-kit
 ```
 

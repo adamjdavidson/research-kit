@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Specification-First**: Complete specification exists with user scenarios and acceptance criteria
+- [ ] **Test-Driven Development**: Test strategy defined; tests will be written before implementation
+- [ ] **Documentation & Contracts**: All interfaces and contracts documented before implementation
+- [ ] **Incremental Delivery**: Feature broken into prioritized user stories (P1 = MVP)
+- [ ] **Simplicity**: Simplest solution chosen; any complexity justified in "Complexity Tracking"
 
 ## Project Structure
 

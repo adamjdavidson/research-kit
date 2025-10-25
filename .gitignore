@@ -1,0 +1,40 @@
+# Testing artifacts
+tests/fixtures/temp_*
+tests/test-results/
+*.test
+*.bats.log
+
+# Backup files
+*.backup
+*.bak
+*~
+*.swp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Build artifacts (if any)
+dist/
+build/
+
+# Git submodules (bats)
+tests/libs/
+
+# Installation test directories
+.researchkit.test/

@@ -222,27 +222,56 @@ or press `Ctrl+C` (works on Mac, Windows, and Linux).
 
 ---
 
-## Optional: Setup Gemini for Large Documents
+## Optional: Setup Web Search Tools
 
-**Do you work with very large documents?** (100+ page PDFs, entire books, multiple long papers)
+ResearchKit works best with access to current research. Consider adding these optional tools:
 
-Claude has a context window limit - it can't handle documents that are too large. **Google's Gemini has a much larger context window** (up to 1 million tokens) and can handle these massive documents.
+### Exa - For Finding Academic Papers (Recommended)
 
-**You can add Gemini to ResearchKit** so Claude can send large documents to Gemini for analysis, then integrate those insights into your research.
+**Do you need current research papers?** Claude's knowledge has a cutoff date (January 2025).
+
+**Exa** is a search engine designed for AI with a specialized `research_paper_search` tool that finds academic papers, recent literature reviews, and scholarly work.
+
+**Example use case:**
+- You're identifying research paths
+- Claude uses Exa to search for recent literature reviews (2024-2025)
+- You get current papers, not outdated information
+
+**Setup takes 5 minutes and is free** (1000 searches/month, no credit card).
+
+**➡️ See the [Exa Setup Guide](.researchkit/docs/exa-setup.md) for step-by-step instructions.**
+
+**When to use Exa:**
+- Finding recent academic papers (2024-2025)
+- Searching for literature reviews
+- Discovering current scholars and their work
+- Verifying claims against recent research
+
+### Gemini - For Large Documents
+
+**Do you work with very large documents?** (100+ page PDFs, entire books)
+
+Claude has a context window limit. **Gemini has a much larger context window** (up to 1 million tokens) and can handle these massive documents.
 
 **Example use case:**
 - You find a 200-page foundational text
-- You ask Claude to analyze it
-- Claude uses Gemini to read and summarize the 200 pages
+- Claude uses Gemini to read and summarize it
 - You use those insights in your ResearchKit project
 
-**Setup takes 10 minutes and is completely free** (no credit card required).
+**Setup takes 10 minutes and is free** (no credit card required).
 
 **➡️ See the [Gemini Setup Guide](.researchkit/docs/gemini-setup.md) for step-by-step instructions.**
 
-**Skip this if:**
-- You're just starting with ResearchKit (come back to this later)
-- You don't work with very large documents
+### Which Should You Install?
+
+**For most researchers:** Start with **Exa** - it helps you find current papers during research.
+
+**If you analyze large documents:** Add **Gemini** - it handles books and long PDFs.
+
+**Best combination:** Both! Use Exa to find papers, Gemini to analyze large ones.
+
+**Skip these if:**
+- You're just starting with ResearchKit (come back later)
 - You want to learn the basic workflow first
 
 ---
@@ -473,6 +502,7 @@ I save it to `questions/question-001.md`.
 - **[Complete Research Workflow Guide](.researchkit/docs/getting-started.md)** - Understand the full research process
 - **[Commands Reference](.researchkit/docs/commands-reference.md)** - All 13 commands explained in detail
 - **[Templates Reference](.researchkit/docs/templates-reference.md)** - What each template does
+- **[Exa Setup Guide](.researchkit/docs/exa-setup.md)** - Add Exa for finding current academic papers (recommended)
 - **[Gemini Setup Guide](.researchkit/docs/gemini-setup.md)** - Add Gemini for large documents (advanced/optional)
 
 ### For Technical Users

@@ -19,9 +19,33 @@ Understand:
 - What disciplines were mentioned as relevant?
 - What's the practical context and audience?
 
-### Step 2: Identify Potential Research Paths
+### Step 2: Search for Current Research (If Exa Available)
 
-Based on the question, propose 5-8 research paths that could provide valuable perspectives.
+**IMPORTANT: Check if Exa MCP is available first.**
+
+Ask the user: "I can search for recent literature reviews and papers using Exa to find current research paths. Would you like me to search for recent academic papers (2024-2025) related to your question?"
+
+**If YES and Exa is available:**
+1. Use Exa's `research_paper_search` to find recent literature reviews (2024-2025) on the topic
+2. Use Exa to search for key research traditions and frameworks currently studying this question
+3. Note which scholars are publishing recently in each tradition
+4. Incorporate these findings into your path identification
+
+**If NO or Exa not available:**
+- Proceed with Claude's knowledge (note it has a January 2025 cutoff)
+- Suggest the user install Exa for current research (see `.researchkit/docs/exa-setup.md`)
+
+**Search strategy with Exa:**
+```
+Use Exa to search for:
+1. Recent literature reviews (2023-2025) on [user's topic]
+2. Key theoretical frameworks being used to study [user's question]
+3. Recent papers by scholars known to work in relevant traditions
+```
+
+### Step 3: Identify Potential Research Paths
+
+Based on the question AND search results (if Exa was used), propose 5-8 research paths that could provide valuable perspectives.
 
 **For each path, suggest**:
 - **Path name** (e.g., "Organizational Ambidexterity," "Culture Change Theory")
@@ -68,7 +92,7 @@ Based on the question, propose 5-8 research paths that could provide valuable pe
    - Practical value: HIGH - very practitioner-oriented
    - Foundation: Moderate (Kotter, others - more practitioner than academic)
 
-### Step 3: Present Paths for Selection
+### Step 4: Present Paths for Selection
 
 Present paths in a clear format showing:
 - Path name
@@ -100,7 +124,7 @@ Select research paths to explore (recommended: 3-5 paths):
 
 Ask: "Which research paths would you like to explore? Select 3-5 that seem most promising."
 
-### Step 4: For Each Selected Path, Generate Research Path File
+### Step 5: For Each Selected Path, Generate Research Path File
 
 Using template at `researchkit/templates/project/research-path-template.md`, create:
 

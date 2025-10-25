@@ -32,9 +32,38 @@ Extract all identified sources:
 - High-impact recent work
 - Emerging concepts references
 
-### Step 2: For Each Source, Attempt to Find
+### Step 2: Search for Current Papers (If Exa Available)
 
-**Use your knowledge to suggest where to find each source:**
+**IMPORTANT: Check if Exa MCP is available first.**
+
+Ask the user: "I can use Exa to search for these papers and find direct links. Would you like me to search for downloadable versions?"
+
+**If YES and Exa is available:**
+1. Use Exa's `research_paper_search` to find each paper from the research paths
+2. For papers not in research paths, search for recent papers (2024-2025) on the topic
+3. Note direct URLs where papers are available
+4. Identify which are open access vs. paywalled
+
+**If NO or Exa not available:**
+- Proceed with Claude's knowledge to suggest where to find sources
+- Note: Exa can find direct links and verify availability (see `.researchkit/docs/exa-setup.md`)
+
+**Search strategy with Exa:**
+```
+For each source identified in research paths:
+1. Search Exa for: "[Author] [Year] [Title]"
+2. Note if found with direct URL
+3. Check if open access or paywalled
+4. If not found, search for similar papers by same author
+
+Also search for additional recent papers:
+1. "Recent papers (2024-2025) on [research path topic]"
+2. Filter for highly-cited or high-quality sources
+```
+
+### Step 3: For Each Source, Categorize Availability
+
+**Based on Exa results (if used) or your knowledge:**
 
 For each document:
 - **Check if likely open access** (e.g., arXiv, SSRN, ResearchGate, author websites)
@@ -44,7 +73,7 @@ For each document:
 
 **DO NOT actually download** - just identify and categorize.
 
-### Step 3: Update Download Queue
+### Step 4: Update Download Queue
 
 Update `.researchkit/documents/download-queue.md`:
 
@@ -76,7 +105,7 @@ Organize by priority and access:
 ...
 ```
 
-### Step 4: Provide Download Instructions
+### Step 5: Provide Download Instructions
 
 Tell the user:
 

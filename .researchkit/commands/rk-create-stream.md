@@ -54,7 +54,37 @@ Create:
 └── relevant-docs.md
 ```
 
-### Step 4: Create question.md
+### Step 4: Search for Stream-Specific Papers (If Exa Available)
+
+**IMPORTANT: Offer to search for current research in this specific discipline/stream.**
+
+Ask the user: "I can use Exa to search for recent papers (2024-2025) specifically in [discipline] related to your question. Would you like me to find relevant papers for this stream?"
+
+**If YES and Exa is available:**
+1. Use Exa's `research_paper_search` to find recent papers in this discipline on this topic
+2. Search for: "[discipline] [key concepts from question] recent research 2024-2025"
+3. Identify 5-10 most relevant papers for this stream
+4. Note key scholars currently publishing in this area
+5. Suggest which papers to read first
+
+**If NO or Exa not available:**
+- Proceed with Claude's knowledge to suggest sources
+- Note: Exa can find current papers specific to this discipline (see `.researchkit/docs/exa-setup.md`)
+
+**Example Exa searches:**
+```
+For Psychology stream on AI adoption:
+- "organizational psychology AI adoption employee experience 2024"
+- "psychological safety technological change recent research"
+- "organizational identity transformation AI"
+
+For Finance stream on AI adoption:
+- "intangible asset valuation AI technology 2024"
+- "CFO technology investment decision making recent"
+- "valuing organizational culture change finance"
+```
+
+### Step 5: Create question.md
 
 Create: `.researchkit/streams/[stream-slug]/question.md`
 
@@ -145,7 +175,7 @@ As understanding deepens, this question may evolve. Document changes here:
 **Reason**: [What insight prompted this evolution]
 ```
 
-### Step 5: Create notes.md
+### Step 6: Create notes.md
 
 Create: `.researchkit/streams/[stream-slug]/notes.md`
 
@@ -221,7 +251,7 @@ Create: `.researchkit/streams/[stream-slug]/notes.md`
 - [Path 2] - [Why it wasn't useful]
 ```
 
-### Step 6: Create concepts.md
+### Step 7: Create concepts.md
 
 Create: `.researchkit/streams/[stream-slug]/concepts.md`
 
@@ -311,7 +341,7 @@ Create: `.researchkit/streams/[stream-slug]/concepts.md`
 - [ ] [Gap 2]
 ```
 
-### Step 7: Create relevant-docs.md
+### Step 8: Create relevant-docs.md
 
 Create: `.researchkit/streams/[stream-slug]/relevant-docs.md`
 
@@ -379,7 +409,7 @@ Create: `.researchkit/streams/[stream-slug]/relevant-docs.md`
 - [ ] [Document 3] - Not yet read
 ```
 
-### Step 8: Link to Research Paths
+### Step 9: Link to Research Paths
 
 Read: `.researchkit/research-paths/paths/*.md`
 
@@ -387,7 +417,7 @@ Identify which research paths are relevant to this stream and:
 - Update `relevant-docs.md` with documents from those paths
 - List paths in `question.md` under "Related Research Paths"
 
-### Step 9: Update Story Index
+### Step 10: Update Story Index
 
 Update: `.researchkit/stories/index.md`
 
@@ -401,7 +431,7 @@ Add stream to stats:
   - [new-stream]: 0 stories  ← ADD THIS
 ```
 
-### Step 10: Update Project README
+### Step 11: Update Project README
 
 Update: `.researchkit/README.md`
 
@@ -417,7 +447,7 @@ Add to status section:
   - Concepts extracted: [X]
 ```
 
-### Step 11: Suggest Next Steps
+### Step 12: Suggest Next Steps
 
 Tell user:
 ```

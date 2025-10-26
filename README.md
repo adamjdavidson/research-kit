@@ -136,17 +136,34 @@ cd my-research-project
 
 **What you'll see:** Your terminal prompt might change to show "my-research-project" - that means you're in your research folder.
 
-### Step 2: Start Claude Code
+### Step 2: Use the Workflow Driver (Recommended)
 
-**In your terminal, type:**
+**The easiest way to get started:**
+
+```bash
+cp ../research-kit/workflow-driver.sh .
+./workflow-driver.sh
+```
+
+**What this does:**
+- Copies the Workflow Driver to your research project
+- Starts the automated step-by-step guide
+
+**What you'll see:** The driver will show you exactly what to do at each step - no need to remember commands! It walks you through all 10 research steps automatically.
+
+[See full Workflow Driver documentation →](WORKFLOW_DRIVER.md)
+
+---
+
+**Alternative: Manual approach**
+
+If you prefer to work without the driver:
 
 ```bash
 claude
 ```
 
-**What this does:** Starts Claude Code in your current folder (my-research-project).
-
-**What you'll see:** Claude Code will start up and you'll see a message like "Claude Code is ready" or similar. You can now chat with Claude and use special commands.
+This starts Claude Code directly. You'll need to remember the research commands yourself (`/rk-question`, `/rk-search`, etc.)
 
 ### Step 3: Initialize ResearchKit
 
